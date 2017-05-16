@@ -1,0 +1,23 @@
+uuid: cf2fde29-efcb-4752-8aca-d7c41b14681c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hide_page_title
+    - node.type.basic_page
+id: node.basic_page.field_hide_page_title
+field_name: field_hide_page_title
+entity_type: node
+bundle: basic_page
+label: 'Hide page title'
+description: 'Make sure the first paragraph title is set to h1. The page title is still used for teasers, views and meta (SEO) information.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
